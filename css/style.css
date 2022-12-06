@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c3b2a;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+[class*="__container"] {
+  max-width: 76.875rem;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrapper {
+}
+.header__container {
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.header__container h1 {
+  font-size: 30px;
+  color: #28c56f;
+  padding: 30px;
+  border: 2px solid #8ec504;
+  border-radius: 20px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+}
+.page {
+}
+
+p {
+  line-height: 2;
+  color: #fff;
+}
+.page__container {
+  display: flex;
+  justify-content: center;
+}
+.page__answers {
+}
+.answers {
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+[class*="__title"] {
+  text-align: center;
+  color: #08d1e8;
+  font-size: 38px;
+  margin: 0 0 10px 0;
+  padding: 20px;
+}
+[class*="__img"] {
+  margin: 0 0 30px 0;
+}
+[class*="__answers"] {
+  padding: 20px;
+  border: 3px solid #824093;
+}
+
+h3 {
+  padding: 10px;
+  display: inline-block;
+  color: #8ec504;
+  border: 2px solid #226a44;
+}
+
+.page__operators {
+}
+.operators-page {
+}
+.operators-page__container {
+}
+.operators-page__title {
+}
+.operators-page__img {
+}
+.operators-page__answers {
+}
+.page__if-else {
+}
+.if-else-page {
+}
+.if-else-page__container {
+}
+
+.if-else-page__img {
+}
+.if-else-page__answers {
+}
+.page__cycle {
+}
+.cycle-page {
+}
+.cycle-page__container {
+}
+
+.cycle-page__img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cycle-page__img img {
+  border: 2px solid #8ec504;
+  margin: 5px;
+}
+.page__num {
+}
+.num-page {
+}
+.num-page__container {
+}
+.num-page__title {
+}
+.num-page__img {
+}
+.num-page__answers {
+}
+.page__string {
+}
+.string-page {
+}
+.string-page__container {
+}
+.string-page__title {
+}
+.string-page__img {
+}
+.string-page__answers {
+}
+.footer {
+}

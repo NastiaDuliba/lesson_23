@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>lesson 23</title>
+</head>
+<body>
+   <div class="wrapper">
+   <header class="header">
+      <div class="header__container">
+         <h1>
+            Домашня робота по JS частина 2
+         </h1>
+      </div>
+      
+   </header>
+   <main class="page">
+      <section class="page__operators operators-page">
+         <div class="operators-page__container">
+            <div class="operators-page__title">
+               <h2> Оператори JS</h2>
+            </div>
+            <div class="operators-page__img">
+               <img src="img/operators/operators.png" alt="">
+            </div>
+            <div class="operators-page__answers">
+               <h3> Варіант 1. Поверне 35-22.</h3>
+               <p>
+                  - перетворить число на рядок а потім виконається додавання, але так як один з операндів є строкою поверне тип данних строку строку 
+                  тобто "35-22"
+               </p>
+               <h3>
+                  Варіант 3.
+               </h3>
+               <p>
+                  Викличе помилку так як оператор ++ приміняється лише до змінних
+               </p>
+               <h3>
+                  Варіант 4.
+               </h3>
+               <p>
+                  Поверне 0 адже оператор ++ виконається після присвоєння.
+               </p>
+               <h3>
+                  Варіант 5.
+               </h3>
+               <p>
+                  Поверне 11 адже оператор || або вираховується з ліва на право та повертає перше true.
+               </p>
+               <h3>
+                  Варіант 6.
+               </h3>
+               <p>
+                  Поверне 0 адже 0 це null
+               </p>
+            </div>
+         </div>
+         </section>
+         <section class="page__if-else if-else-page">
+            <div class="if-else-page__container">
+               <div class="if-else-page__title">
+                  <h2>If else</h2>
+
+               </div>
+               <div class="if-else-page__img">
+                  <img src="/img/if_else/if_else.png" alt="">
+               </div>
+               <div class="if-else-page__answers">
+                  <h3>
+                     Варіант 1. False
+                  </h3>
+                  <p>
+                     === означає строге дорівнює має співпадати не лише значення але й тип
+                  </p>
+                  <h3>
+                     Варіант 2. True
+                  </h3>
+                  <p>
+                     == означає просто дорівнює може співпадати лише значення.
+                  </p>
+                  <h3>
+                     Варіант 3. True
+                  </h3>
+                  <p>
+                     92 > 11 а 58 < 100 оператор && шукає перший false якщо все true то вертає останнє true
+                  </p>
+                  <h3>
+                     Варіант 4. False
+                  </h3>
+                  <p>
+                     0 Вертає false а " " True адже це не пуста строка.
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section class="page__cycle cycle-page">
+            <div class="cycle-page__container">
+               <div class="cycle-page__title">
+                  <h2>Цикли</h2>
+               </div>
+               <div class="cycle-page__img">
+                  <img src="img/cycle/cycle_1.png" alt="">
+                  <img src="img/cycle/cycle_2.png" alt="">
+                  <img src="img/cycle/cycle_3.png" alt="">
+                  <img src="img/cycle/cycle_4.png" alt="">
+               </div>
+            </div>
+         </section>
+         <section class="page__num num-page">
+            <div class="num-page__container">
+               <div class="num-page__title">
+                  <h2>Числа</h2>
+               </div>
+               <div class="num-page__img">
+                  <img src="img/num/numbers.png" alt="">
+               </div>
+               <div class="num-page__answers">
+                  <h3>
+                     Задача №1
+                  </h3>
+                   <p>
+                      До числа 1.005 ми додаємо метод Number.EPSILON
+                      таким чином вирішуємо проблему не точних вирахувань.
+                   </p>
+                   <h3>
+                     Задача №2
+                   </h3>
+                   <p>
+                      За допомогою parseFloat ми можемо "Витягнути" потрібне нам число з строки. Він також міняє тип данних.
+                   </p>
+                   <h3>
+                     Задача №3
+                   </h3>
+                   <p>
+                     let numNuN це не є NuN. Я так і не зрозуміла чому но добре.
+                     console.log (NaN === NaN); 
+                   </p>
+                   <h3>
+                     Задача №4
+                   </h3>
+                   <p>
+                      За допомогою Math.max() вираховуємо яке з чисел є найбільшим.
+                   </p>
+                   <h3>
+                     Задача №5
+                   </h3>
+                   <p>
+                     За допомогою Math.floor заокруглюємо число до меншого.
+                   </p>
+               </div>
+            </div>
+         </section>
+         <section class="page__string string-page">
+            <div class="string-page__container">
+               <div class="string-page__title">
+                  <h2>Рядки</h2>
+               </div>
+                <div class="string-page__img">
+                   <img src="img/string/string.png" alt="">
+                </div>
+                <div class="string-page__answers">
+                   <h3> Задача №1</h3>
+                   <p>
+                      В консоль виведе Привіт я ${fls}. Адже для того щоб додати змінну в строку потрібно використовувати зворотні лапки ``;
+                   </p>
+                   <h3> Задача №2</h3>
+                   <p>
+                      За допомогою indexOf ми взнали який ключ має символ н = 5.
+                      Потім використавши text[5] виводимо симил н;
+
+                   </p>
+                   <h3> Задача №3</h3>
+                  <p> Не вірно виведе 123456 адже якщо один операнд є строкою то все переводить у string.
+                   І просто додасть строку до строки
+                  </p>
+                   <h3> Задача №4</h3>
+                   <p>
+                     За допомогою  toUpperCase() строку можна перевести у верхній регістр
+                   </p>
+                   <h3> Задача №5</h3>
+                   <p>
+                     slice(start, end) дає можливість получити частину строки.  
+                   </p>
+                   <h3> Задача №6</h3>
+                   <p>
+                      Покаже False адже вираховується з 0 початок строки. 4 символ це а;
+                   </p>
+                </div>
+            </div>
+
+         </section>
+      
+   </main>
+   <footer class="footer"></footer>
+</div>
+   <script src="js/script.js"></script>
+   
+   
+</body>
+</html>
